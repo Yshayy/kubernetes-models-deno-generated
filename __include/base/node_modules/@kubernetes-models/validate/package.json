@@ -1,0 +1,24 @@
+{
+  "name": "@kubernetes-models/validate",
+  "version": "0.1.2",
+  "main": "dist",
+  "description": "Validation library for Kubernetes models.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tommy351/kubernetes-models-ts.git"
+  },
+  "homepage": "https://github.com/tommy351/kubernetes-models-ts",
+  "author": "Tommy Chen <tommy351@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "/dist/"
+  ],
+  "dependencies": {
+    "ajv": "^6.10.2",
+    "big-integer": "^1.6.44",
+    "tslib": "^1.10.0"
+  }
+}
